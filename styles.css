@@ -1,0 +1,267 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: hsl(0, 100%, 74%) url('images/bg-intro-mobile.png');
+    padding: 50px 25px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-div {
+    color: #fff;
+    padding: 18px 0;
+}
+
+h1 {
+    font-size: 1.8em;
+    line-height: 1.25;
+}
+
+#form-div {
+    padding: 30px 0;
+}
+
+#promo-btn {
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    padding: 18px 56px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.65;
+    border-radius: 10px;
+    box-shadow: 0 9px 0px 0px hsla(249, 10%, 26%, 0.2);
+}
+
+#promo-btn span {
+    font-weight: 600;
+}
+
+form {
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 9px 0px 0px hsla(249, 10%, 26%, 0.2);
+}
+
+#icon {
+    display: none;
+    position: absolute;
+    left: 77%;
+    padding: 16px 0;
+}
+
+.error {
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding: 20px 10px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-family: Poppins;
+    font-weight: 700;
+    color: hsl(249, 10%, 26%);
+    caret-color: hsl(248, 32%, 49%);
+}
+
+input::placeholder {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+input:focus-within {
+    outline: 1.5px solid hsl(248, 32%, 49%);
+    border: none;
+}
+
+.error-input {
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.error-input:focus-within {
+    outline: 2px solid hsl(0, 100%, 74%);
+}
+
+#submit-btn {
+    width: 100%;
+    border-radius: 5px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    padding: 20px 0;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    border-bottom: 4px solid hsla(249, 10%, 26%, 0.253);
+}
+
+#submit-btn:hover {
+    background: hsla(154, 59%, 51%, 0.7);
+    cursor: pointer;
+}
+
+form p {
+    color: hsl(246, 25%, 77%);
+    font-size: 13px;
+}
+
+#terms {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+.attribution {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+}
+.attribution a {
+    color: hsl(248, 32%, 49%);
+}
+
+@media only screen and (max-width: 320px) {
+    input {
+        padding-left: 10px;
+    }
+
+    #icon {
+        left: 75%;
+    }
+
+    #submit-btn {
+        font-size: 14px;
+    }
+
+    form p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    #icon {
+        left: 80%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #icon {
+        left: 88%;
+    }
+
+    #promo-btn {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+@media only screen and (min-width: 992px) {
+    body {
+        background: hsl(0, 100%, 74%) url('images/bg-intro-desktop.png');
+        padding: 100px 50px;
+        padding-bottom: 30px;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    #intro-div {
+        padding: 0;
+        text-align: left;
+        width: 50%;
+    }
+
+    #intro-div p {
+        padding-right: 15px;
+        margin: 18px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.1;
+        padding-right: 50px;
+        margin: 18px;
+    }
+
+    #form-div {
+        padding: 0;
+        width: 50%;
+    }
+
+    form {
+        margin-top: 25px;
+        padding: 30px;
+    }
+
+    #icon {
+        left: 88%;
+        padding: 12.5px 0;
+    }
+
+    input {
+        margin-bottom: 8px;
+        padding: 15px 10px;
+        padding-left: 25px;
+    }
+
+    #submit-btn {
+        padding: 20px 0;
+        font-size: 15px;
+    }
+
+    form p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        padding: 100px 120px;
+        background-size: contain;
+        padding-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    #icon {
+        left: 85.5%;
+    }
+}
