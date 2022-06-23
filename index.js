@@ -3,7 +3,7 @@ const firstName = document.getElementById('first-name');
 const lastName = document.getElementById('last-name');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
-const icon = document.querySelectorAll('#icon');
+const icon = document.querySelectorAll('.icon');
 const error = document.querySelectorAll('.error');
 
 submitBtn.addEventListener('click', checkError);
