@@ -81,7 +81,7 @@ I want to work more on maintainig a mobile-first workflow. I also want to become
 - Frontend Mentor - [@mudi-igbinoba](https://www.frontendmentor.io/profile/mudi-igbinoba)
 - Twitter - [@Mudi_Igbinoba](https://www.twitter.com/mudi_igbinoba)
 - Github - [@mudi-igbinoba](https://github.com/mudi-igbinoba)
-- LinkedIn - [Osamudiame Igbinoba](https://www.linkedin/in/osamudiame-igbinoba)
+- LinkedIn - [Osamudiame Igbinoba](https://www.linkedin.com/in/osamudiame-igbinoba/)
 
 
 
